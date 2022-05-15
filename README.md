@@ -1,8 +1,6 @@
-#Decetralised application for SAC Election
+# SAC Election
 
 A decentralized voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
-
-> This started as a final year project for the IT Degree that I was/am pursuing, now aiming to make this more than that.
 
 ## System Workflow
 
@@ -13,8 +11,6 @@ A brief explanation on the basic workflow of the application.
 - The admin then will check if the registration information (blockchain account address, name, and phone number) is valid and matches with his record. If yes, then the admin approves the registered user making them eligible to take part and cast their respective vote in the election.
 - The registered user (voter) following the approval from the admin casts their vote to the candidate of interest (from the voting page).
 - After some time, depending on the scale of the election the admin ends the election. As that happens the voting is closed and the results are displayed announcing the winner at the top of the results page.
-
-  **See demo [here](https://youtu.be/nh1zfTTrdII "Watch dVoting demo").**
 
 ---
 
@@ -49,8 +45,8 @@ A brief explanation on the basic workflow of the application.
 1. Clone this repository
 
    ```shell
-   git clone https://github.com/arlbibek/dVoting.git
-   cd dVoting
+   git clone https://github.com/namanctrvd/SAC-Election
+   cd SAC-Election
    ```
 
 1. Run local Ethereum blockchain
@@ -71,7 +67,7 @@ A brief explanation on the basic workflow of the application.
 1. Deploy smart contract to the (local) blockchain network (i.e ganache-cli)
 
    ```shell
-   # on the dVoting directory
+   # on the SAC-Election directory
    truffle migrate
    ```
 
@@ -89,16 +85,11 @@ A brief explanation on the basic workflow of the application.
 
 Possible features to add/improve within the app.
 
-- [ ] **Email Verification**—adding email/phone verification (OTP, etc..) while registering for voters.
-- [ ] **Automated Verification**—adding an automated verification (rather than manually approving by the admin) for the registered users. This could be based on the custom cooperation email, custom list of emails, or custom list of phone numbers, etc.
-- [ ] **Report**—option to generate a report at the end of an election. The report could contain a range of information including the number of people that were eligible to vote, the number of people that participated in the election, a bar-chart/pie-chart showing the election statistics, etc.
-- [ ] **Workflow improvements**—overall workflow improvements (eg. option to add candidates within the election setup page), with overall GUI improvements.
-- [ ] **Multiple election instance**—ability to create multiple election instances without having to re-deploy the smart contract.
+- [ ] **Email Verification**—Registering voters directly through college mail ID.
+- [ ] **Automated Password Verification**— Automatic genereted password sent to the verified college main address (rather than manually approving by the admin).
+- [ ] **Election for multiple posts**—Ability to create elections for all the SAC post at the same time.
 
 ---
 
-_Feel free to contribute._
-
----
 
 
