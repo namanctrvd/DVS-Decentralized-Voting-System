@@ -1,4 +1,4 @@
-# Decentralized Voting (dVoting)
+#Decetralised application for SAC Election
 
 A decentralized voting system based on [Ethereum blockchain](https://ethereum.org/dapps/) technology.
 
@@ -101,4 +101,4 @@ _Feel free to contribute._
 
 ---
 
-Made with ❤️ by [Bibek Aryal](https://bibeka.com.np/).
+
